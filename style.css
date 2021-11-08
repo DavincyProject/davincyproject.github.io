@@ -9,7 +9,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #7DEDFF 10%, #7C83FD 100%);
+    background: linear-gradient(135deg, #F9D5A7 10%, #FFB085 100%);
 }
 body::before,
 body::after {
