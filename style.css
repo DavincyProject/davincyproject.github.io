@@ -23,11 +23,11 @@ body::after {
 }
 body::before{
     clip-path: circle(30% at left 20%);
-    background: linear-gradient(135deg, #F9D5A7 10%, #FFB085 100%);
+    background: linear-gradient(135deg, #E26A2C 10%, #AB6D23 100%);
 }
 body::after{
     clip-path: circle(25% at right 80%);
-    background: linear-gradient(135deg, #F9D5A7 10%, #FFB085 100%);
+    background: linear-gradient(135deg, #E26A2C 10%, #AB6D23 100%);
 }
 header{
     height: 85vh;
