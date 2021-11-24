@@ -21,7 +21,7 @@ body {
   font-weight: 800;
   float: left;
   font-family: "Shippori Antique", sans-serif;
-  color: #94daff;
+  color: #2f1c6a;
 }
 
 .menu {
@@ -38,7 +38,7 @@ nav {
   top: 0;
   background: #ffffff;
   z-index: 1;
-  border-bottom: 1px solid #94daff;
+  border-bottom: 1px solid #c7cacc;
 }
 
 nav ul {
@@ -61,7 +61,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffffff;
+  color: #303179;
 }
 
 section {
@@ -79,7 +79,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   font-family: "Shippori Antique", sans-serif;
-  color: #94daff;
+  color: #2f1c6a;
 }
 
 h2 {
@@ -87,13 +87,13 @@ h2 {
   font-weight: 800;
   font-size: 45px;
   margin-bottom: 20px;
-  color: #94daff;
+  color: #ef9273;
   width: 100%;
   line-height: 50px;
 }
 
 a.tombol {
-  background: #b983ff;
+  background: #ed7966;
   border-radius: 20px;
   margin-top: 30px;
   padding: 8px 20px 8px 20px;
@@ -102,8 +102,13 @@ a.tombol {
   font-weight: bold;
 }
 
+a.tombol:hover {
+  color: #303179;
+  text-decoration: none;
+}
+
 a.daftar {
-  background: #b983ff;
+  background: #ed7966;
   border-radius: 20px;
   margin-top: 30px;
   padding: 15px 20px 15px 20px;
@@ -113,7 +118,7 @@ a.daftar {
 }
 
 a.daftar:hover {
-  color: #fdb9fc;
+  color: #303179;
   text-decoration: none;
 }
 
@@ -190,13 +195,13 @@ p {
   font-family: "Shippori Antique", sans-serif;
   font-weight: 800;
   font-size: 20px;
-  color: #548ca8;
+  color: #2f1c6a;
 }
 
 /*footer*/
 #contactus {
-  background: #dedede;
-  padding: 50px 0px 50px 0px;
+  background: #fae5df;
+  padding: 30px 0px 30px 0px;
 }
 
 .footer {
@@ -225,7 +230,7 @@ h3 {
   font-weight: 800;
   font-size: 30px;
   margin-bottom: 20px;
-  color: #94daff;
+  color: #2f1c6a;
   width: 100%;
   line-height: 50px;
 }
