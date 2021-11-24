@@ -1,0 +1,282 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Shippori Antique", sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 30px;
+  font-weight: 800;
+  float: left;
+  font-family: "Shippori Antique", sans-serif;
+  color: #94daff;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1;
+  border-bottom: 1px solid #94daff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Shippori Antique", sans-serif;
+  color: #94daff;
+}
+
+h2 {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #94daff;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tombol {
+  background: #b983ff;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 8px 20px 8px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.daftar {
+  background: #b983ff;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.daftar:hover {
+  color: #fdb9fc;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+/*prodi*/
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+/*border gambar prodi*/
+.prodi-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Ukuran Gambar*/
+.kartu-prodi {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.kartu-prodi img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+/*Teks dibawah gambar*/
+.kartu-prodi p {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #548ca8;
+}
+
+/*lokasi*/
+.kartu-lokasi iframe {
+  width: 1000px;
+  height: 500px;
+  border: 0;
+}
+
+/*Admin*/
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.contact-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-admin {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.contact-admin img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+/*Teks dibawah gambar*/
+.contact-admin p {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #548ca8;
+}
+
+/*footer*/
+#contactus {
+  background: #dedede;
+  padding: 50px 0px 50px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.footer-section img {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 80%;
+}
+
+h3 {
+  font-family: "Shippori Antique", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #94daff;
+  width: 100%;
+  line-height: 50px;
+}
+
+#copyright {
+  font-family: "Shippori Antique", sans-serif;
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .kartu-lokasi iframe {
+    width: auto;
+    height: 100%;
+  }
+}
